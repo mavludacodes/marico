@@ -14,6 +14,11 @@ function GetStartSection() {
         <p className="font-poppins_regular text-[#FFFFFF] leading-[64px] text-[43px] text-center">
           Setup is easy and takes under 5 minutes.
         </p>
+        <div className="flex justify-center">
+          <button className="bg-[#326CF9] h-[102px] w-[472px] text-[#FFFFFF] text-[30px] font-poppins_medium leading-[45px] rounded-md">
+            Get Started Now
+          </button>
+        </div>
         <div className="flex justify-center items-center gap-[22px]">
           <div className="flex items-center justify-center h-[37px] bg-[#043016] rounded-full w-[37px]">
             <div className="h-[22px] w-[22px] rounded-full bg-[#0FC65C] "></div>

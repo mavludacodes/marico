@@ -17,6 +17,19 @@ function Header() {
       <p className="text-[#FFFFFF] font-poppins_medium text-center text-[40px]">
         Turn your audience into email and <br /> text message subscribers.
       </p>
+
+      <div className="flex justify-center gap-6">
+        <button className="bg-[#326CF9] h-[77px] w-[313px] text-[#FFFFFF] text-[20px] font-poppins_medium leading-[30px] rounded-md">
+          Get Started Now
+        </button>
+
+        <button
+          className={`bg-[#000000]  h-[77px] w-[313px] text-[#707070] text-[20px] font-poppins_medium leading-[30px] rounded-md border border-[#707070]`}
+        >
+          View A Demo
+        </button>
+      </div>
+
       <div className="flex justify-center items-center gap-[22px]">
         <div className="flex items-center justify-center h-[28px] bg-[#043016] rounded-full w-[28px]">
           <div className="h-[17px] w-[17px] rounded-full bg-[#0FC65C] "></div>

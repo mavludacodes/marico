@@ -12,6 +12,13 @@ function Steps({ step, title, text }) {
       <p className="font-poppins_regular text-[#707070] text-[30px] text-center">
         {text}
       </p>
+      <div className="flex justify-center">
+        <button
+          className={`bg-[#000000]  h-[77px] w-[313px] text-[#707070] text-[20px] font-poppins_medium leading-[30px] rounded-md border border-[#707070]`}
+        >
+          View Avaliable Sources
+        </button>
+      </div>
     </>
   );
 }
