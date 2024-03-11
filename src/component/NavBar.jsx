@@ -119,7 +119,7 @@ const NavBar = () => {
               </svg>
             </button>
           </div>
-          <div className="absolute flex flex-col items-center justify-center w-full mt-[40%]">
+          <div className="absolute flex flex-col items-center justify-center w-full mt-[35%]">
             <div className="flex flex-col justify-center items-center gap-[15px]">
               <a
                 href="#"
