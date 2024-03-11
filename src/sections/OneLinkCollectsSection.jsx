@@ -6,20 +6,20 @@ function OneLinkCollectsSection() {
     <>
       <div>
         <div className="flex justify-center  ">
-          <div className="bg-[#0D0D0D] h-[666px] w-[854px]">
+          <div className="bg-lightblack h-[666px] w-[854px]">
             <p className="font-poppins_regular text-green text-[30px] leading-[45px]">
               One Link
             </p>
             <p className="font-poppins_semibold text-gray text-[80px] text-[120px] ">
               ALL You Create.
             </p>
-            <p className="text-[#FFFFFF] font-poppins_semibold text-[80px] text-[120px] ">
+            <p className="font-poppins_semibold text-white text-[80px] text-[120px] ">
               One Link
             </p>
 
             <img src={mobile_img} alt="" />
           </div>
-          <div className="bg-[#0D0D0D] h-[666px] w-[854px]">
+          <div className="bg-lightblack h-[666px] w-[854px]">
             <p className="font-poppins_regular text-green text-[30px] leading-[45px]">
               Collect Subscribers
             </p>
@@ -35,7 +35,7 @@ function OneLinkCollectsSection() {
           </div>
         </div>
         <div className="flex justify-center">
-          <button className="font-poppins_medium text-white  bg-[#326CF9] h-[65px] w-[207px]  text-[20px] leading-[30px] rounded-md">
+          <button className="font-poppins_medium text-white  bg-blue h-[65px] w-[207px]  text-[20px] leading-[30px] rounded-md">
             Get Started Now
           </button>
         </div>

@@ -13,17 +13,17 @@ function YourHomepageSection() {
             Your Content.
           </p>
           <p className="font-poppins_semibold text-white text-[75px]  leading-[112px]">
-            All in <span className="text-[#3C82F4]">One Spot</span>
+            All in <span className="text-blue">One Spot</span>
           </p>
           <ul>
             <li className="font-poppins_regular text-white text-[23px] leading-[34px] flex gap-[11px]">
-              <div className="rounded-full h-[33px] w-[33px] bg-[#2D2D2D] text-center">
+              <div className="rounded-full h-[33px] w-[33px] bg-shark text-center">
                 1
               </div>{" "}
               Bring all of your content together into one homepage.
             </li>
             <li className="font-poppins_regular text-white text-[23px] leading-[34px] flex gap-[11px]">
-              <div className="rounded-full  h-[33px] w-[33px]  bg-[#2D2D2D] text-center">
+              <div className="rounded-full  h-[33px] w-[33px]  bg-shark text-center">
                 2
               </div>{" "}
               Your page automatically updates whenever you create.
@@ -31,12 +31,12 @@ function YourHomepageSection() {
           </ul>
 
           <div className="flex justify-center gap-6">
-            <button className="font-poppins_medium text-white bg-[#326CF9] h-[65px] w-[207px]  text-[20px]  leading-[30px] rounded-md">
+            <button className="font-poppins_medium text-white bg-blue h-[65px] w-[207px]  text-[20px]  leading-[30px] rounded-md">
               Get Started Now
             </button>
 
             <button
-              className={`font-poppins_medium text-dark bg-[#000000]  h-[65px] w-[207px]  text-[20px]  leading-[30px] rounded-md border border-[#707070]`}
+              className={`font-poppins_medium text-dark bg-black  h-[65px] w-[207px]  text-[20px]  leading-[30px] rounded-md border border-[#707070]`}
             >
               View A Demo
             </button>

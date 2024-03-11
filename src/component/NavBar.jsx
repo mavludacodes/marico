@@ -48,7 +48,7 @@ const NavBar = () => {
         </a>
         <a
           href="/login"
-          className="font-poppins_medium text-white  text-[20px] leading-[30px] bg-[#306EF7] px-[20px] py-[13px] rounded-md "
+          className="font-poppins_medium text-white bg-blue  text-[20px] leading-[30px]  px-[20px] py-[13px] rounded-md "
         >
           Sign Up
         </a>
