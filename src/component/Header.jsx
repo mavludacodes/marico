@@ -17,6 +17,15 @@ function Header() {
       <p className="text-[#FFFFFF] font-poppins_medium text-center text-[40px]">
         Turn your audience into email and <br /> text message subscribers.
       </p>
+      <div className="flex justify-center items-center gap-[22px]">
+        <div className="flex items-center justify-center h-[28px] bg-[#043016] rounded-full w-[28px]">
+          <div className="h-[17px] w-[17px] rounded-full bg-[#0FC65C] "></div>
+        </div>
+        <p className="font-poppins_regular text-[#707070] leading-[38px] text-[25px] text-center">
+          <span className="text-[#FFFFFF]">1000+ </span>creators have already
+          started{" "}
+        </p>
+      </div>
     </>
   );
 }

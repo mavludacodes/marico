@@ -1,10 +1,11 @@
+import Footer from "../component/Footer";
 import Header from "../component/Header";
 import Steps from "../component/Steps";
 import AudienceSection from "../sections/AudienceSection";
 import CreateShareSection from "../sections/CreateShareSection";
 import ExpertsAgreeSection from "../sections/ExpertsAgreeSection";
+import GetStartSection from "../sections/GetStartSection";
 import OneLinkCollectsSection from "../sections/OneLinkCollectsSection";
-// import OneLinkCollectsSection from "../sections/OneLinkCollectsSection";
 import WhyLoveSection from "../sections/WhyLoveSection";
 import YourHomepageSection from "../sections/YourHomepageSection";
 
@@ -38,6 +39,8 @@ function Home() {
       <CreateShareSection />
       <ExpertsAgreeSection />
       <AudienceSection />
+      <GetStartSection />
+      <Footer></Footer>
     </>
   );
 }
