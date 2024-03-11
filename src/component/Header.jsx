@@ -5,20 +5,20 @@ function Header() {
     <>
       <NavBar />
 
-      <div className="">
+      {/* <div className="">
         <p className="font-poppins_bold text-white text-center text-[112px]  leading-[168px]">
           Own your audience.
         </p>
         <p className="font-poppins_bold text-center text-[112px] bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text leading-[168px]">
           So you don't lose them.
         </p>
-      </div>
+      </div> */}
 
-      <p className="font-poppins_medium text-white text-center text-[40px]">
+      {/* <p className="font-poppins_medium text-white text-center text-[40px]">
         Turn your audience into email and <br /> text message subscribers.
-      </p>
+      </p> */}
 
-      <div className="flex justify-center gap-6">
+      {/* <div className="flex justify-center gap-6">
         <button className="font-poppins_medium text-white bg-blue h-[77px] w-[313px] text-[20px]  leading-[30px] rounded-md">
           Get Started Now
         </button>
@@ -28,9 +28,9 @@ function Header() {
         >
           View A Demo
         </button>
-      </div>
+      </div> */}
 
-      <div className="flex justify-center items-center gap-[22px]">
+      {/* <div className="flex justify-center items-center gap-[22px]">
         <div className="flex items-center justify-center h-[28px] bg-darkgreen rounded-full w-[28px]">
           <div className="h-[17px] w-[17px] rounded-full bg-green "></div>
         </div>
@@ -38,7 +38,7 @@ function Header() {
           <span className="text-white">1000+ </span>creators have already
           started{" "}
         </p>
-      </div>
+      </div> */}
     </>
   );
 }
