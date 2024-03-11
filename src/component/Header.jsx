@@ -5,14 +5,14 @@ function Header() {
     <>
       <NavBar />
 
-      {/* <div className="">
+      <div className="">
         <p className="font-poppins_bold text-white text-center text-[112px]  leading-[168px]">
           Own your audience.
         </p>
         <p className="font-poppins_bold text-center text-[112px] bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text leading-[168px]">
           So you don't lose them.
         </p>
-      </div> */}
+      </div>
 
       {/* <p className="font-poppins_medium text-white text-center text-[40px]">
         Turn your audience into email and <br /> text message subscribers.
