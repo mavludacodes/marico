@@ -7,23 +7,23 @@ function CreateShareSection() {
     <>
       <div className="flex">
         <div>
-          <p className="text-[#FFFFFF] font-poppins_medium text-[30px] leading-[45px]">
+          <p className="font-poppins_medium text-white text-[30px] leading-[45px]">
             Create & Share
           </p>
-          <p className="text-[#FFFFFF] text-[75px] font-poppins_semibold leading-[112px]">
+          <p className="font-poppins_semibold text-white text-[75px]  leading-[112px]">
             Reach Your
           </p>
-          <p className="text-[#FFFFFF] text-[75px] font-poppins_semibold leading-[112px]">
-            Audience <span className="text-[#3C82F4]">Directly.</span>
+          <p className="font-poppins_semibold text-white text-[75px]  leading-[112px]">
+            Audience <span className="text-blue">Directly.</span>
           </p>
           <ul>
-            <li className="text-[#FFFFFF] font-poppins_regular text-[23px] leading-[34px] flex gap-[11px]">
+            <li className="font-poppins_regular text-white  text-[23px] leading-[34px] flex gap-[11px]">
               <div className="rounded-full h-[33px] w-[33px] bg-[#2D2D2D] text-center">
                 1
               </div>{" "}
               Embed content or create something new to share.
             </li>
-            <li className="text-[#FFFFFF] font-poppins_regular text-[23px] leading-[34px] flex gap-[11px]">
+            <li className="font-poppins_regular text-white text-[23px] leading-[34px] flex gap-[11px]">
               <div className="rounded-full  h-[33px] w-[33px]  bg-[#2D2D2D] text-center">
                 2
               </div>{" "}
@@ -32,12 +32,12 @@ function CreateShareSection() {
           </ul>
 
           <div className="flex justify-center gap-6">
-            <button className="bg-[#326CF9] h-[65px] w-[207px] text-[#FFFFFF] text-[20px] font-poppins_medium leading-[30px] rounded-md">
+            <button className="font-poppins_medium text-white bg-[#326CF9] h-[65px] w-[207px] text-[20px]  leading-[30px] rounded-md">
               Get Started Now
             </button>
 
             <button
-              className={`bg-[#000000]  h-[65px] w-[207px] text-[#707070] text-[20px] font-poppins_medium leading-[30px] rounded-md border border-[#707070]`}
+              className={`font-poppins_medium text-dark bg-[#000000]  h-[65px] w-[207px]  text-[20px]  leading-[30px] rounded-md border border-[#707070]`}
             >
               View A Demo
             </button>
@@ -45,7 +45,7 @@ function CreateShareSection() {
         </div>
 
         <div>
-          <img src={screen_img} alt="" />
+          <img src={screen_img} alt="screen_img" />
         </div>
       </div>
     </>

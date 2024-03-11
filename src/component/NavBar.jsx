@@ -13,7 +13,7 @@ const NavBar = () => {
       <div className="flex gap-[49px]">
         <a
           href="/"
-          className="text-[#707070] font-poppins_medium  text-[20px] leading-[30px] "
+          className="font-poppins_medium text-dark text-[20px] leading-[30px] "
         >
           Use Cases
           <span className="ml-2">
@@ -22,19 +22,19 @@ const NavBar = () => {
         </a>
         <a
           href="/about"
-          className="text-[#707070] font-poppins_medium  font-medium text-[20px] leading-[30px]"
+          className="font-poppins_medium text-dark  text-[20px] leading-[30px]"
         >
           About
         </a>
         <a
-          href="/contact"
-          className="text-[#707070] font-poppins_medium  font-medium text-[20px] leading-[30px]"
+          href="/pricing"
+          className="font-poppins_medium text-blue text-[20px] leading-[30px]"
         >
           Pricing
         </a>
         <a
-          href="/contact"
-          className="text-[#707070] font-poppins_medium  font-medium text-[20px] leading-[30px]"
+          href="/blog"
+          className="font-poppins_medium  text-dark  text-[20px] leading-[30px]"
         >
           Blog
         </a>
@@ -42,13 +42,13 @@ const NavBar = () => {
       <div className="">
         <a
           href="/signin"
-          className="text-[#707070] font-poppins_medium  text-[20px] leading-[30px] px-[20px] py-[13px] "
+          className="font-poppins_medium text-dark text-[20px] leading-[30px] px-[20px] py-[13px] "
         >
           Login
         </a>
         <a
           href="/login"
-          className="text-[#FFFFFF] font-poppins_medium  text-[20px] leading-[30px] bg-[#306EF7] px-[20px] py-[13px] rounded-md "
+          className="font-poppins_medium text-white  text-[20px] leading-[30px] bg-[#306EF7] px-[20px] py-[13px] rounded-md "
         >
           Sign Up
         </a>

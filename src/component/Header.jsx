@@ -6,7 +6,7 @@ function Header() {
       <NavBar />
 
       <div className="">
-        <p className="font-poppins_bold text-[#FFFFFF] text-[112px] text-center leading-[168px]">
+        <p className="font-poppins_bold text-white text-[112px] text-center leading-[168px]">
           Own your audience.
         </p>
         <p className="font-poppins_bold text-center text-[112px] bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text leading-[168px]">
@@ -14,17 +14,17 @@ function Header() {
         </p>
       </div>
 
-      <p className="text-[#FFFFFF] font-poppins_medium text-center text-[40px]">
+      <p className="font-poppins_medium text-white text-center text-[40px]">
         Turn your audience into email and <br /> text message subscribers.
       </p>
 
       <div className="flex justify-center gap-6">
-        <button className="bg-[#326CF9] h-[77px] w-[313px] text-[#FFFFFF] text-[20px] font-poppins_medium leading-[30px] rounded-md">
+        <button className="font-poppins_medium text-white bg-[#326CF9] h-[77px] w-[313px] text-[20px]  leading-[30px] rounded-md">
           Get Started Now
         </button>
 
         <button
-          className={`bg-[#000000]  h-[77px] w-[313px] text-[#707070] text-[20px] font-poppins_medium leading-[30px] rounded-md border border-[#707070]`}
+          className={`font-poppins_medium text-dark bg-[#000000]  h-[77px] w-[313px]  text-[20px]  leading-[30px] rounded-md border border-[#707070]`}
         >
           View A Demo
         </button>
@@ -34,8 +34,8 @@ function Header() {
         <div className="flex items-center justify-center h-[28px] bg-[#043016] rounded-full w-[28px]">
           <div className="h-[17px] w-[17px] rounded-full bg-[#0FC65C] "></div>
         </div>
-        <p className="font-poppins_regular text-[#707070] leading-[38px] text-[25px] text-center">
-          <span className="text-[#FFFFFF]">1000+ </span>creators have already
+        <p className="font-poppins_regular text-dark leading-[38px] text-[25px] text-center">
+          <span className="text-white">1000+ </span>creators have already
           started{" "}
         </p>
       </div>

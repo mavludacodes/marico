@@ -9,15 +9,15 @@ function Footer() {
           <img src={logo} alt="" />
           <a
             href=""
-            className="font-poppins_regular text-[#707070] text-[27px] leading-[40px]"
+            className="font-poppins_regular text-dark text-[27px] leading-[40px]"
           >
             info@marico.co
           </a>
         </div>
         <div>
-          <ul className="flex gap-[46px] font-poppins_medium text-[#707070] text-[28px] leading-[42px]">
+          <ul className="font-poppins_medium text-dark flex gap-[46px]  text-[28px] leading-[42px]">
             <li>About</li>
-            <li className="text-[#326DF9]">Pricing</li>
+            <li className="text-blue">Pricing</li>
             <li>Blog</li>
             <li>Sign in</li>
           </ul>
