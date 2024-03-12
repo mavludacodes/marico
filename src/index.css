@@ -68,3 +68,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   } */
 }
+
+.text_gradient {
+  background: linear-gradient(90deg, #fe6783 1.9%, #ffbf84 97.1%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

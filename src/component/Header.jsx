@@ -9,7 +9,7 @@ function Header() {
         <p className="font-poppins_bold text-white text-center text-2xl sm:text-5xl md:text-7xl 2xl:text-[112px]  leading-10 2xl:leading-[168px]">
           Own your audience.
         </p>
-        <p className="font-poppins_bold text-white text-center text-2xl sm:text-5xl md:text-7xl 2xl:text-[112px] leading-10 2xl:leading-[168px] sm:mt-[2%]">
+        <p className="font-poppins_bold text_gradient text-center text-2xl sm:text-5xl md:text-7xl 2xl:text-[112px] leading-10 2xl:leading-[168px] sm:mt-[2%]">
           So you don't lose them.
         </p>
       </div>

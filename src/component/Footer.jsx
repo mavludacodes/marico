@@ -4,7 +4,7 @@ import logo from "../assets/Company_logo.svg";
 function Footer() {
   return (
     <>
-      <div className="flex justify-between mx-[140px] my-[96px] items-center">
+      <div className="flex flex-col md:flex-row justify-between mx-[140px] my-[96px] items-center gap-4 md:gap-auto">
         <div>
           <img src={logo} alt="" />
           <a
@@ -15,7 +15,7 @@ function Footer() {
           </a>
         </div>
         <div>
-          <ul className="font-poppins_medium text-dark flex gap-[46px]  text-[28px] leading-[42px]">
+          <ul className="font-poppins_medium text-dark flex  flex-col md:flex-row gap-[46px] text-[18px] md:text-[22px]  2xl:text-[28px] 2xsl:leading-[42px]">
             <li>About</li>
             <li className="text-blue">Pricing</li>
             <li>Blog</li>
